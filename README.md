@@ -15,7 +15,8 @@ Whether you're building a personal blog, a content management system, or a colla
 To get started with this backend, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Configure your MySQL database settings.
+2. Configure your MySQL database settings:
+
    ```sql
    create database Blog_Platform;
    use Blog_Platform;
@@ -31,7 +32,8 @@ To get started with this backend, follow these steps:
    CREATE TABLE commenter (
        blogid INT,
        commenter VARCHAR(5000)
-   );```
+   );
+   
 4. Build and run the Ktor application.
 5. Explore the API endpoints to manage blog posts and comments.
 
